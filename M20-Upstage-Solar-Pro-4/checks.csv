@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+upstage/solar-pro4,1,q1,ok,16.8,1074,0.00040698,stop,upstage/solar-pro4,Upstage,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+upstage/solar-pro4,1,q2,ok,17.8,1553,0.00058626,stop,upstage/solar-pro4,Upstage,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+upstage/solar-pro4,1,q3,ok,27.7,2441,0.00090783,stop,upstage/solar-pro4,Upstage,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+upstage/solar-pro4,1,q4,ok,18.0,1540,0.000673398,stop,upstage/solar-pro4,Upstage,0,False,True,True,,,True,True,True,5,False,True,True,True,,,,,,,,,,,,,,,
+upstage/solar-pro4,1,q5,ok,5.7,302,0.000234936,stop,upstage/solar-pro4,Upstage,0,,,,,,,,,,,,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,False,2,,,,,,,,
+upstage/solar-pro4,1,q6,ok,37.5,2507,0.00134964,stop,upstage/solar-pro4,Upstage,0,,,,,,,,,,,,,,,,,,,,,True,True,True,True,False,14,0,"152-фз,161-фз,38-фз,фз № 149"

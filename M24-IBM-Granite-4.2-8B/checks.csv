@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+ibm-granite/granite-4.2-8b,1,q1,ok,137.9,4454,0.00112898,stop,ibm-granite/granite-4.2-8b,DeepInfra,3031,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ibm-granite/granite-4.2-8b,1,q2,ok,146.2,4986,0.00126924,stop,ibm-granite/granite-4.2-8b,DeepInfra,1296,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ibm-granite/granite-4.2-8b,1,q3,ok,110.7,11899,0.00182405,stop,ibm-granite/granite-4.2-8b,CoreWeave,1390,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ibm-granite/granite-4.2-8b,1,q4,ok,47.3,5595,0.00196895,stop,ibm-granite/granite-4.2-8b,CoreWeave,3436,False,True,True,,,True,True,True,2,True,True,True,True,,,,,,,,,,,,,,,
+ibm-granite/granite-4.2-8b,1,q5,ok,9.4,994,0.0009306,stop,ibm-granite/granite-4.2-8b,CoreWeave,835,,,,,,,,,,,,,,True,True,False,L1_followed?,False,True,1,,,,,,,,
+ibm-granite/granite-4.2-8b,1,q6,ok,113.0,13224,0.0026857,stop,ibm-granite/granite-4.2-8b,CoreWeave,1628,,,,,,,,,,,,,,,,,,,,,True,False,True,True,False,30,8,

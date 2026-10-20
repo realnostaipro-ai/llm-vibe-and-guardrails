@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+meituan/longcat-2.0,1,q1,ok,37.3,2229,0.002754,stop,meituan/longcat-2.0,AtlasCloud,842,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meituan/longcat-2.0,1,q2,ok,41.6,2683,0.003333,stop,meituan/longcat-2.0,AtlasCloud,1191,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meituan/longcat-2.0,1,q3,ok,132.0,7595,0.0092379,stop,meituan/longcat-2.0,AtlasCloud,5524,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meituan/longcat-2.0,1,q4,ok,20.7,1215,0.0023274,stop,meituan/longcat-2.0,AtlasCloud,493,False,True,False,logic_comment,,True,True,True,4,False,True,True,True,,,,,,,,,,,,,,,
+meituan/longcat-2.0,1,q5,ok,13.6,761,0.001284396,stop,meituan/longcat-2.0,AtlasCloud,574,,,,,,,,,,,,,,True,False,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,2,,,,,,,,
+meituan/longcat-2.0,1,q6,ok,79.2,4993,0.006402996,stop,meituan/longcat-2.0,AtlasCloud,2576,,,,,,,,,,,,,,,,,,,,,True,True,True,True,True,7,1,"152-фз,фз-38"

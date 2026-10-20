@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+openai/gpt-6-astra,1,q1,ok,24.4,944,0.04863,stop,openai/gpt-6-astra,OpenAI,496,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+openai/gpt-6-astra,1,q2,ok,17.4,664,0.03521,stop,openai/gpt-6-astra,OpenAI,139,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+openai/gpt-6-astra,1,q3,ok,65.9,2749,0.13966,stop,openai/gpt-6-astra,OpenAI,516,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+openai/gpt-6-astra,1,q4,ok,32.7,1573,0.1124175,stop,openai/gpt-6-astra,OpenAI,340,True,False,True,,,True,True,True,2,True,True,True,False,,,,,,,,,,,,,,,
+openai/gpt-6-astra,1,q5,ok,3.5,98,0.025654,stop,openai/gpt-6-astra,OpenAI,0,,,,,,,,,,,,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,2,,,,,,,,
+openai/gpt-6-astra,1,q6,ok,82.5,3813,0.2123665,stop,openai/gpt-6-astra,OpenAI,393,,,,,,,,,,,,,,,,,,,,,True,True,True,True,True,30,0,"152-фз,307-фз,38-фз,98-фз,99-фз"

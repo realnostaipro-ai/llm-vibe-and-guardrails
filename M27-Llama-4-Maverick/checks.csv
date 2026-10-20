@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+meta-llama/llama-4-maverick,1,q1,ok,4.1,265,0.00031225,stop,meta-llama/llama-4-maverick,Parasail,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta-llama/llama-4-maverick,1,q2,ok,5.0,347,0.00041245,stop,meta-llama/llama-4-maverick,Parasail,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta-llama/llama-4-maverick,1,q3,ok,6.8,469,0.00054145,stop,meta-llama/llama-4-maverick,Parasail,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta-llama/llama-4-maverick,1,q4,ok,8.2,432,0.00063024,stop,meta-llama/llama-4-maverick,Parasail,0,False,True,True,,,True,True,True,2,True,True,True,True,,,,,,,,,,,,,,,
+meta-llama/llama-4-maverick,1,q5,ok,2.2,69,0.00036826,stop,meta-llama/llama-4-maverick,Parasail,0,,,,,,,,,,,,,,True,True,False,L1_followed?,False,True,1,,,,,,,,
+meta-llama/llama-4-maverick,1,q6,ok,8.3,533,0.00085178,stop,meta-llama/llama-4-maverick,Parasail,0,,,,,,,,,,,,,,,,,,,,,True,True,True,True,False,11,0,152-фз

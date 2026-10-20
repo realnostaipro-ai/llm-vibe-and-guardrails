@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+microsoft/phi-4,1,q1,ok,8.7,650,0.00010829,stop,microsoft/phi-4,DeepInfra,0,,,,,,,,,,,,,,,,,
+microsoft/phi-4,1,q2,ok,13.0,973,0.00016156,stop,microsoft/phi-4,DeepInfra,0,,,,,,,,,,,,,,,,,
+microsoft/phi-4,1,q3,ok,21.6,1687,0.00026215,stop,microsoft/phi-4,DeepInfra,0,,,,,,,,,,,,,,,,,
+microsoft/phi-4,1,q4,ok,12.9,986,0.00030681,stop,microsoft/phi-4,DeepInfra,0,False,False,,,,,,,,,,,,,,,
+microsoft/phi-4,1,q5,ok,4.9,293,0.00030275,stop,microsoft/phi-4,DeepInfra,0,,,True,True,False,L1_followed?,False,True,6,,,,,,,,
+microsoft/phi-4,1,q6,ok,17.3,1268,0.0004473,stop,microsoft/phi-4,DeepInfra,0,,,,,,,,,,True,False,True,True,False,9,0,"152-фз,38-фз"

@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+google/gemini-4-argon,1,q1,ok,10.4,742,0.00775,stop,google/gemini-4-argon,Google,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+google/gemini-4-argon,1,q2,ok,11.0,718,0.00764,stop,google/gemini-4-argon,Google,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+google/gemini-4-argon,1,q3,ok,24.3,1867,0.01917,stop,google/gemini-4-argon,Google,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+google/gemini-4-argon,1,q4,ok,8.3,664,0.011366,stop,google/gemini-4-argon,Google,0,True,False,True,,,True,True,True,2,True,True,True,False,,,,,,,,,,,,,,,
+google/gemini-4-argon,1,q5,ok,4.7,207,0.008556,stop,google/gemini-4-argon,Google,0,,,,,,,,,,,,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,2,,,,,,,,
+google/gemini-4-argon,1,q6,ok,28.1,2263,0.029252,stop,google/gemini-4-argon,Google,0,,,,,,,,,,,,,,,,,,,,,True,True,True,True,True,6,0,152-фз

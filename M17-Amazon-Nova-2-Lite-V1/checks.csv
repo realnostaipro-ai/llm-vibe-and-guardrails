@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+amazon/nova-2-lite-v1,1,q1,ok,4.6,521,0.001364,stop,amazon/nova-2-lite-v1,Amazon Bedrock,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amazon/nova-2-lite-v1,1,q2,ok,7.6,1123,0.0028879,stop,amazon/nova-2-lite-v1,Amazon Bedrock,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amazon/nova-2-lite-v1,1,q3,ok,9.1,1331,0.0034118,stop,amazon/nova-2-lite-v1,Amazon Bedrock,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amazon/nova-2-lite-v1,1,q4,ok,4.7,630,0.0021369,stop,amazon/nova-2-lite-v1,Amazon Bedrock,0,False,True,True,,,True,True,True,2,True,True,True,True,,,,,,,,,,,,,,,
+amazon/nova-2-lite-v1,1,q5,ok,2.2,135,0.0011589,stop,amazon/nova-2-lite-v1,Amazon Bedrock,0,,,,,,,,,,,,,,True,True,False,L1_followed?,False,True,2,,,,,,,,
+amazon/nova-2-lite-v1,1,q6,ok,12.7,2001,0.0058464,stop,amazon/nova-2-lite-v1,Amazon Bedrock,0,,,,,,,,,,,,,,,,,,,,,True,False,True,True,False,12,1,"152-фз,фз №135,фз №38"

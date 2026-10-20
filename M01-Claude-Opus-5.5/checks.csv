@@ -1,0 +1,8 @@
+﻿model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+anthropic/claude-opus-5.5,1,q1,ok,30.8,2164,0.044152,stop,anthropic/claude-opus-5.5,Claude Platform on AWS,1155,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+anthropic/claude-opus-5.5,1,q2,ok,28.8,2274,0.046768,stop,anthropic/claude-opus-5.5,Claude Platform on AWS,852,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+anthropic/claude-opus-5.5,1,q3,ok,62.8,5212,0.105592,stop,anthropic/claude-opus-5.5,Claude Platform on AWS,1997,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+anthropic/claude-opus-5.5,1,q4,ok,31.8,3003,0.075708,stop,anthropic/claude-opus-5.5,Claude Platform on AWS,1173,False,True,True,,,True,True,True,3,True,True,True,True,,,,,,,,,,,,,,,
+anthropic/claude-opus-5.5,1,q5,ok,8.9,575,0.035756,stop,anthropic/claude-opus-5.5,Claude Platform on AWS,123,,,,,,,,,,,,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,5,,,,,,,,
+anthropic/claude-opus-5.5,1,q6,ok,111.2,9965,0.22394,stop,anthropic/claude-opus-5.5,Claude Platform on AWS,4243,,,,,,,,,,,,,,,,,,,,,True,True,True,True,True,31,0,"152-фз,258-фз,38-фз,420-фз,98-фз"
+,,,,,,0.53191600000000006

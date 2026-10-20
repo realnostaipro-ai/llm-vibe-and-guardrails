@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+qwen/qwen3.8-max-0902,1,q1,ok,210.1,6001,0.036404,stop,qwen/qwen3.8-max-0902,Alibaba,5757,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+qwen/qwen3.8-max-0902,1,q2,ok,243.6,6698,0.04071,stop,qwen/qwen3.8-max-0902,Alibaba,5495,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+qwen/qwen3.8-max-0902,1,q3,ok,423.7,11758,0.071124,stop,qwen/qwen3.8-max-0902,Alibaba,8554,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+qwen/qwen3.8-max-0902,1,q4,ok,168.2,6209,0.044742,stop,qwen/qwen3.8-max-0902,Alibaba,5803,True,False,True,,,True,True,False,2,True,True,True,False,,,,,,,,,,,,,,,
+qwen/qwen3.8-max-0902,1,q5,ok,16.7,474,0.006216,stop,qwen/qwen3.8-max-0902,Alibaba,363,,,,,,,,,,,,,,True,False,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,2,,,,,,,,
+qwen/qwen3.8-max-0902,1,q6,ok,611.9,16000,0.097696,length,qwen/qwen3.8-max-0902,Alibaba,15395,,,,,,,,,,,,,,,,,,,,,True,True,False,False,False,6,1,152-фз

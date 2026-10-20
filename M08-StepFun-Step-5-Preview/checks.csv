@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+stepfun/step-5-preview,1,q1,ok,111.7,12847,0.0348549,stop,stepfun/step-5-preview,StepFun,12490,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stepfun/step-5-preview,1,q2,ok,39.3,3929,0.0108413,stop,stepfun/step-5-preview,StepFun,3356,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stepfun/step-5-preview,1,q3,ok,88.5,9770,0.02663,stop,stepfun/step-5-preview,StepFun,7723,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+stepfun/step-5-preview,1,q4,ok,36.5,3327,0.0115669,stop,stepfun/step-5-preview,StepFun,2631,False,True,True,,,True,True,True,3,True,True,True,True,,,,,,,,,,,,,,,
+stepfun/step-5-preview,1,q5,ok,7.6,953,0.0061011,stop,stepfun/step-5-preview,StepFun,820,,,,,,,,,,,,,,True,False,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,2,,,,,,,,
+stepfun/step-5-preview,1,q6,ok,84.9,9154,0.0263762,stop,stepfun/step-5-preview,StepFun,6876,,,,,,,,,,,,,,,,,,,,,True,True,True,True,False,16,2,"152-фз,223-фз,44-фз"

@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+inclusionai/ling-3.1-flash,1,q1,ok,58.0,3442,0,stop,inclusionai/ling-3.1-flash,Novita,3714,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+inclusionai/ling-3.1-flash,1,q2,ok,37.6,1781,0,stop,inclusionai/ling-3.1-flash,Novita,999,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+inclusionai/ling-3.1-flash,1,q3,ok,63.3,3912,0,stop,inclusionai/ling-3.1-flash,Novita,3116,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+inclusionai/ling-3.1-flash,1,q4,ok,40.5,1774,0,stop,inclusionai/ling-3.1-flash,Novita,938,False,True,True,,,True,True,True,3,True,True,True,True,,,,,,,,,,,,,,,
+inclusionai/ling-3.1-flash,1,q5,ok,44.3,475,0,stop,inclusionai/ling-3.1-flash,Novita,313,,,,,,,,,,,,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,2,,,,,,,,
+inclusionai/ling-3.1-flash,1,q6,ok,236.8,14187,0,stop,inclusionai/ling-3.1-flash,Novita,11722,,,,,,,,,,,,,,,,,,,,,True,True,True,True,False,14,0,"152-фз,фз № 105,фз № 106,фз-184,фз-187,фз-307,фз-38"

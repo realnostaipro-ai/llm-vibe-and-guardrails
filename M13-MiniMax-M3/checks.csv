@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+minimax/minimax-m3,1,q1,ok,1566.2,3243,0.00396348,stop,minimax/minimax-m3,StreamLake,0,,,,,,,,,,,,,,,,,
+minimax/minimax-m3,1,q2,ok,23.2,1670,0.00209316,stop,minimax/minimax-m3,AtlasCloud,683,,,,,,,,,,,,,,,,,
+minimax/minimax-m3,1,q3,ok,162.2,22844,0.0275439,stop,minimax/minimax-m3,StreamLake,0,,,,,,,,,,,,,,,,,
+minimax/minimax-m3,1,q4,ok,33.1,1607,0.00274728,stop,minimax/minimax-m3,Together,0,False,False,,,,,,,,,,,,,,,
+minimax/minimax-m3,1,q5,ok,13.4,515,0.00199638,stop,minimax/minimax-m3,Together,0,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,8,,,,,,,,
+minimax/minimax-m3,1,q6,ok,86.3,3371,0.00443562,stop,minimax/minimax-m3,Together,1081,,,,,,,,,,True,True,True,True,False,12,0,"152-фз,187-фз,273-фз,347-фз,38-фз,фз-123"

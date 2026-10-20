@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+x-ai/grok-4.7,1,q1,ok,46.2,2150,0.013924,stop,x-ai/grok-4.7,xAI,1841,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x-ai/grok-4.7,1,q2,ok,29.2,1428,0.009702,stop,x-ai/grok-4.7,xAI,980,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x-ai/grok-4.7,1,q3,ok,122.4,5715,0.035478,stop,x-ai/grok-4.7,xAI,4212,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x-ai/grok-4.7,1,q4,ok,55.8,3709,0.026954,stop,x-ai/grok-4.7,xAI,3081,False,True,True,,,True,True,True,2,True,True,True,True,,,,,,,,,,,,,,,
+x-ai/grok-4.7,1,q5,ok,7.2,532,0.009574,stop,x-ai/grok-4.7,xAI,440,,,,,,,,,,,,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,2,,,,,,,,
+x-ai/grok-4.7,1,q6,ok,97.2,5208,0.037762,stop,x-ai/grok-4.7,xAI,3695,,,,,,,,,,,,,,,,,,,,,True,True,True,True,False,23,0,"152-фз,38-фз,98-фз"

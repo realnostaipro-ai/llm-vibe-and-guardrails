@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+meta/muse-wonder,1,q1,ok,30.8,2326,0.047048,stop,meta/muse-wonder,Meta,1835,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta/muse-wonder,1,q2,ok,29.1,2201,0.044756,stop,meta/muse-wonder,Meta,1209,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta/muse-wonder,1,q3,ok,55.3,4947,0.099756,stop,meta/muse-wonder,Meta,3131,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta/muse-wonder,1,q4,ok,10.6,1768,0.043752,stop,meta/muse-wonder,Meta,1201,True,False,True,,,True,True,True,2,True,True,True,False,,,,,,,,,,,,,,,
+meta/muse-wonder,1,q5,ok,6.8,843,0.028096,stop,meta/muse-wonder,Meta,690,,,,,,,,,,,,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,2,,,,,,,,
+meta/muse-wonder,1,q6,ok,33.6,3105,0.0732044,stop,meta/muse-wonder,Meta,882,,,,,,,,,,,,,,,,,,,,,True,True,True,True,False,15,0,"152-фз,258-фз,38-фз"

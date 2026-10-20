@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+bytedance-seed/seed-2-1-turbo,1,q1,ok,107.7,5773,0.0145325,stop,bytedance-seed/seed-2-1-turbo,Seed,4885,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bytedance-seed/seed-2-1-turbo,1,q2,ok,92.2,4442,0.0112395,stop,bytedance-seed/seed-2-1-turbo,Seed,3377,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bytedance-seed/seed-2-1-turbo,1,q3,ok,243.9,8253,0.020777,stop,bytedance-seed/seed-2-1-turbo,Seed,6128,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+bytedance-seed/seed-2-1-turbo,1,q4,ok,93.0,3776,0.0107855,stop,bytedance-seed/seed-2-1-turbo,Seed,2527,False,True,True,,,True,True,True,3,True,True,True,True,,,,,,,,,,,,,,,
+bytedance-seed/seed-2-1-turbo,1,q5,ok,10.5,503,0.003353,stop,bytedance-seed/seed-2-1-turbo,Seed,380,,,,,,,,,,,,,,True,True,False,L1_followed?,False,True,1,,,,,,,,
+bytedance-seed/seed-2-1-turbo,1,q6,ok,86.6,5673,0.0163165,stop,bytedance-seed/seed-2-1-turbo,Seed,3623,,,,,,,,,,,,,,,,,,,,,True,False,True,True,False,14,0,"152-фз,38-фз"

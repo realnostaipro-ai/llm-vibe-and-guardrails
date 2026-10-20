@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+cohere/command-a-plus,1,q1,ok,16.2,2546,0.0038607,stop,cohere/command-a-plus,Cohere,2622,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+cohere/command-a-plus,1,q2,ok,14.2,1356,0.0020928,stop,cohere/command-a-plus,Cohere,565,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+cohere/command-a-plus,1,q3,ok,30.5,4815,0.0072879,stop,cohere/command-a-plus,Cohere,3500,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+cohere/command-a-plus,1,q4,ok,7.6,1421,0.0029055,stop,cohere/command-a-plus,Cohere,385,False,True,True,,,True,True,True,5,False,True,True,True,,,,,,,,,,,,,,,
+cohere/command-a-plus,1,q5,ok,2.4,163,0.0014103,stop,cohere/command-a-plus,Cohere,82,,,,,,,,,,,,,,True,True,False,L1_followed?,False,True,1,,,,,,,,
+cohere/command-a-plus,1,q6,ok,50.9,5937,0.0100947,stop,cohere/command-a-plus,Cohere,3172,,,,,,,,,,,,,,,,,,,,,True,True,True,True,False,4,1,"фз 146,фз 152"

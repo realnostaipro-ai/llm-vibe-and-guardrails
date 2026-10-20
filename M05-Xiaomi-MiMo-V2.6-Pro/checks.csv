@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+xiaomi/mimo-v2.6-pro,1,q1,ok,94.4,3709,0.00330687,stop,xiaomi/mimo-v2.6-pro,Novita,3112,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+xiaomi/mimo-v2.6-pro,1,q2,ok,64.4,1911,0.001771755,stop,xiaomi/mimo-v2.6-pro,GMICloud,887,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+xiaomi/mimo-v2.6-pro,1,q3,ok,145.1,5663,0.005046435,stop,xiaomi/mimo-v2.6-pro,Xiaomi,3281,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+xiaomi/mimo-v2.6-pro,1,q4,ok,175.3,6542,0.00695703,stop,xiaomi/mimo-v2.6-pro,DeepInfra,5476,False,True,True,,,True,True,True,2,True,False,True,True,,,,,,,,,,,,,,,
+xiaomi/mimo-v2.6-pro,1,q5,ok,15.6,392,0.0009845376,stop,xiaomi/mimo-v2.6-pro,Xiaomi,174,,,,,,,,,,,,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,2,,,,,,,,
+xiaomi/mimo-v2.6-pro,1,q6,ok,186.5,8971,0.0084821976,stop,xiaomi/mimo-v2.6-pro,Xiaomi,5808,,,,,,,,,,,,,,,,,,,,,True,True,True,True,False,21,5,"152-фз,38-фз,74-фз,99-фз"

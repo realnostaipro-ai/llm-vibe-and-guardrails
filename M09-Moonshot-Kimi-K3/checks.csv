@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+moonshotai/kimi-k3,1,q1,ok,129.2,8245,0.1157756,stop,moonshotai/kimi-k3,AkashML,8748,,,,,,,,,,,,,,,,,,,,,
+moonshotai/kimi-k3,1,q2,ok,163.9,6528,0.08554485,stop,moonshotai/kimi-k3,DigitalOcean,4882,,,,,,,,,,,,,,,,,,,,,
+moonshotai/kimi-k3,1,q3,ok,235.8,17152,0.25848497,stop,moonshotai/kimi-k3,InferenceNet,15016,,,,,,,,,,,,,,,,,,,,,
+moonshotai/kimi-k3,1,q4,ok,58.9,4765,0.08008919,stop,moonshotai/kimi-k3,InferenceNet,3572,False,True,True,,,True,True,True,2,True,True,True,True,,,,,,,,
+moonshotai/kimi-k3,1,q5,error,1.4,,,,,,,,,,,,,,,,,,,,,,,,,,,
+moonshotai/kimi-k3,1,q6,ok,308.7,15084,0.20681025,stop,moonshotai/kimi-k3,DigitalOcean,12495,,,,,,,,,,,,,,True,True,True,True,True,18,2,"135-фз,149-фз,152-фз,38-фз"

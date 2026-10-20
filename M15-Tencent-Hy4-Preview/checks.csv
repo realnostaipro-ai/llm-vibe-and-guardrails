@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+tencent/hy4-preview,1,q1,ok,92.7,6697,0.016895981,stop,tencent/hy4-preview,Tencent,5942,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tencent/hy4-preview,1,q2,ok,297.3,10224,0.02576955,stop,tencent/hy4-preview,Novita,9050,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tencent/hy4-preview,1,q3,ok,248.5,16700,0.041985208,stop,tencent/hy4-preview,Tencent,15179,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tencent/hy4-preview,1,q4,ok,84.0,6661,0.018222635,stop,tencent/hy4-preview,Tencent,5985,False,True,True,,,True,True,True,2,True,True,True,True,,,,,,,,,,,,,,,
+tencent/hy4-preview,1,q5,ok,24.4,1569,0.004830555,stop,tencent/hy4-preview,Tencent,1381,,,,,,,,,,,,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,3,,,,,,,,
+tencent/hy4-preview,1,q6,ok,378.6,26422,0.066546914,stop,tencent/hy4-preview,Tencent,21823,,,,,,,,,,,,,,,,,,,,,True,True,True,True,False,48,0,"149-фз,152-фз,156-фз,160-фз,347-фз,38-фз,54-фз,фз №347"

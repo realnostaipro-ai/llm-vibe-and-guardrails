@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+thinkingmachines/inkling,1,q1,ok,34.7,2084,0.00858365,stop,thinkingmachines/inkling,DeepInfra,2084,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+thinkingmachines/inkling,1,q2,ok,38.8,2510,0.01036405,stop,thinkingmachines/inkling,DeepInfra,2599,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+thinkingmachines/inkling,1,q3,ok,86.7,5547,0.0226829,stop,thinkingmachines/inkling,DeepInfra,4731,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+thinkingmachines/inkling,1,q4,ok,44.9,3684,0.01680553,stop,thinkingmachines/inkling,DeepInfra,3419,False,True,True,,,True,True,True,2,True,True,True,True,,,,,,,,,,,,,,,
+thinkingmachines/inkling,1,q5,ok,13.1,996,0.00519083,stop,thinkingmachines/inkling,DeepInfra,1098,,,,,,,,,,,,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,1,,,,,,,,
+thinkingmachines/inkling,1,q6,ok,64.4,4439,0.01920813,stop,thinkingmachines/inkling,DeepInfra,3146,,,,,,,,,,,,,,,,,,,,,True,True,True,True,True,10,1,"152-фз,187-фз,307-фз,38-фз,54-фз"

@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+mistralai/mistral-large-4-0,1,q1,ok,55.7,4041,0.00854633,stop,mistralai/mistral-large-4-0,Mistral,5544,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mistralai/mistral-large-4-0,1,q2,ok,35.8,2241,0.00482309,stop,mistralai/mistral-large-4-0,Mistral,1717,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mistralai/mistral-large-4-0,1,q3,ok,119.9,6181,0.01307129,stop,mistralai/mistral-large-4-0,Mistral,6706,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mistralai/mistral-large-4-0,1,q4,ok,52.3,5408,0.0127688,stop,mistralai/mistral-large-4-0,Mistral,4774,False,True,True,,,True,True,True,3,True,True,True,True,,,,,,,,,,,,,,,
+mistralai/mistral-large-4-0,1,q5,ok,22.5,1264,0.00528832,stop,mistralai/mistral-large-4-0,Mistral,1667,,,,,,,,,,,,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,2,,,,,,,,
+mistralai/mistral-large-4-0,1,q6,ok,75.6,6722,0.01674178,stop,mistralai/mistral-large-4-0,Mistral,6011,,,,,,,,,,,,,,,,,,,,,True,True,True,True,True,11,1,"152-фз,38-фз,54-фз,фз-19,фз-438"

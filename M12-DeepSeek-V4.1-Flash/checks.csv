@@ -1,0 +1,7 @@
+model,run,step,status,latency_s,out_tokens,cost,finish,served_model,provider,reasoning_tokens,strict_json,extractable_json,keys_exact,extra_keys,missing_keys,status_ok,confidence_ok,steps_ok,depth,depth_ok,romashka,cyrillic_in_sample,wrapper_text,mentions_prepay,mentions_priority,warns,auto_guess,json_bleed,facts_kept,nonempty_lines,has_152,has_13_11,has_ad_law,trap_mentioned,trap_denial_hint,conf_labels,lawyer_mentions,fz_cited
+deepseek/deepseek-v4.1-flash,1,q1,ok,79.1,8778,0.004842299,stop,deepseek/deepseek-v4.1-flash,InferenceNet,8334,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+deepseek/deepseek-v4.1-flash,1,q2,ok,35.4,4131,0.002291454,stop,deepseek/deepseek-v4.1-flash,InferenceNet,3605,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+deepseek/deepseek-v4.1-flash,1,q3,ok,38.3,7116,0.0046794,stop,deepseek/deepseek-v4.1-flash,CoreWeave,5694,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+deepseek/deepseek-v4.1-flash,1,q4,ok,11.7,2819,0.00220459,stop,deepseek/deepseek-v4.1-flash,CoreWeave,2215,True,False,True,,,True,True,True,2,True,True,True,False,,,,,,,,,,,,,,,
+deepseek/deepseek-v4.1-flash,1,q5,ok,2.4,426,0.0008403,stop,deepseek/deepseek-v4.1-flash,CoreWeave,298,,,,,,,,,,,,,,True,True,True,"manual (упомянула предоплату, но с оговоркой?)",False,True,2,,,,,,,,
+deepseek/deepseek-v4.1-flash,1,q6,ok,48.8,10175,0.00688811,stop,deepseek/deepseek-v4.1-flash,CoreWeave,8691,,,,,,,,,,,,,,,,,,,,,True,True,True,True,True,22,1,"152-фз,242-фз,307-фз,38-фз,98-фз"
